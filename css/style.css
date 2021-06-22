@@ -40,6 +40,7 @@ main {
 section {
   height: 50vh;
   width: 22%;
+  position: relative;
   margin-right: 20px;
 }
 
@@ -89,4 +90,12 @@ footer {
   background-color: #00669f;
   color: white;
   padding: 16px 10px;
+}
+
+img {
+  position: absolute;
+  left: 50%;
+  top: 35%;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
 }
